@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://jackfritz:I,frankenstein1738@cluster0.8jrwnqf.mongodb.net/?retryWrites=true&w=majority",
+  "bartersecret": "barter_secret"
+}
