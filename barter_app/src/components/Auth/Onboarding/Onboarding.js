@@ -38,7 +38,29 @@ const slides = [
 ];
 
 function Onboarding({navigation}) {
-  return null;
+  return (
+    <Box flex={1} backgroundColor="primary">
+      <Box height={height * 65}>
+        <Box
+          flexDirection="row"
+          justifyContent="center"
+          alignItems="center"
+          paddingTop="m">
+            <Butterfly width={40} height={40} />
+            <Text
+              variant="title1"
+              color="black"
+              fontSize={30}
+              fontweight="bold"
+              textDecorationStyle="solid"
+              style={{marginLeft: 3}}
+              >
+              pappyzino
+            </Text>
+        </Box>
+      </Box>
+    </Box>
+  )
 }
 
 export default Onboarding;
